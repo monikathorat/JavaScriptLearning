@@ -1,26 +1,26 @@
 var myName; // Variable Declaration
-myName = "Mohit Sharma"; // Variable initialization
+myName = "Monika"; // Variable initialization
 console.log(myName);
 
-var myFrdName = "Sachin Tendulkar"; // Variable declaration and initialization at the same time
+var myFrdName = "Bobo"; // Variable declaration and initialization at the same time
 console.log(myFrdName);
 
-myFrdName = "MS Dhoni"; // Variable update 
+myFrdName = "Gigi"; // Variable update 
 console.log(myFrdName);
 
-var myFullName = "Mohit Sharma";
+var myFullName = "Monika Thorat";
 
 console.log(myFullName);
 
 console.log("==== Learning typeof ====");
-var age = 31;
+var age = 26;
 var ageType = typeof age;
 console.log(ageType);
 console.log(typeof age);
 
-var pinCode = 431202;
+var pinCode = 413304;
 
-var city="Pune";
+var city="Pandharpur";
 
 var isMarried = false;
 

@@ -48,3 +48,13 @@ function rajuBhaiya(paisa){
     console.log(val1 + val2);
  }
  add(10, 20);
+
+
+ function multiply(num1, num2){
+  var result = num1 * num2;
+  console.log(result);
+  return result;
+ }
+ var multiplyResult = multiply(56, 45);
+ var finalResult = multiplyResult + 100;
+ console.log(finalResult);

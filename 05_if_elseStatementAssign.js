@@ -1,20 +1,16 @@
-
 console.log(`###1`);
-var eligibilty = function(age){
-    if (age <=0 || age> 120) {
-        console.log(`Invalid data: ${age}`);
-       
+var eligibilty = function (age) {
+  if (age <= 0 || age > 120) {
+    console.log(`Invalid data: ${age}`);
+  } else {
+    console.log(`Valid data`);
+    if (age >= 18) {
+      console.log(`Congratulations your age is ${age}, you can vote `);
+    } else {
+      console.log(`Sorry your age is ${age},you are minor`);
     }
-    else{
-        console.log(`Valid data`);
-        if (age >= 18) {
-            console.log(`Congratulations your age is ${age}, you can vote `);            
-        }
-        else{
-            console.log(`Sorry your age is ${age},you are minor`);
-        }
-    }
-}
+  }
+};
 eligibilty(45);
 console.log(``);
 eligibilty(17);
@@ -32,37 +28,32 @@ console.log(``);
 
 console.log(`###2`);
 
-
-
-
-
-function gradeCalculation(marks){
-    if (marks >= 100 || marks <= 0){
-        console.log(`Invalid marks: ${marks}`);
-        console.log(`Please provide valid marks`);
+function gradeCalculation(marks) {
+  if (marks >= 100 || marks <= 0) {
+    console.log(`Invalid marks: ${marks}`);
+    console.log(`Please provide valid marks`);
+  } else {
+    console.log(`Valid data`);
+    if (marks >= 90 && marks <= 100) {
+      console.log(`Funtastic marks: ${marks},Your grade is A+`);
     }
-    else{
-        console.log(`Valid data`);
-        if ((marks >= 90) && (marks <= 100)) {
-            console.log(`Funtastic marks: ${marks},Your grade is A+`);        
-        }
-        if ((marks >= 75) && (marks < 90)) {
-            console.log(`Excellent marks: ${marks},Your grade is A`);        
-        }
-        if ((marks >= 50) && (marks < 75)) {
-            console.log(`Good marks: ${marks},Your grade is B`);        
-        }
-        if ((marks >= 35) && (marks < 50)) {
-            console.log(`Marks is ${marks},Your grade is C,Need improvement`);        
-        }
-        if ((marks >= 0) && (marks < 35)) {
-            console.log(`Marks is ${marks},Your grade is C,Need improvement`);        
-        }
-        if ((marks <= 0) || (marks > 100)) {
-            console.log(`Marks: ${marks}, Please provide the valid marks`);        
-        }            
-        }
+    if (marks >= 75 && marks < 90) {
+      console.log(`Excellent marks: ${marks},Your grade is A`);
     }
+    if (marks >= 50 && marks < 75) {
+      console.log(`Good marks: ${marks},Your grade is B`);
+    }
+    if (marks >= 35 && marks < 50) {
+      console.log(`Marks is ${marks},Your grade is C,Need improvement`);
+    }
+    if (marks >= 0 && marks < 35) {
+      console.log(`Marks is ${marks},Your grade is C,Need improvement`);
+    }
+    if (marks <= 0 || marks > 100) {
+      console.log(`Marks: ${marks}, Please provide the valid marks`);
+    }
+  }
+}
 gradeCalculation(98);
 console.log(``);
 gradeCalculation(80);
@@ -82,4 +73,3 @@ console.log(``);
 gradeCalculation(64);
 console.log(``);
 gradeCalculation(49);
-

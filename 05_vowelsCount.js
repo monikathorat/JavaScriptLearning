@@ -14,7 +14,6 @@ for (let index = 0; index < sentence.length; index++) {
 console.log(`Total vowels in string is : ${counter}`);
 
 
-
 // Print the vowels only aeiou or AEIOU
 var counter = 0;
 for (let index = 0; index < sentence.length; index++) {
@@ -34,8 +33,9 @@ var reverseString = "";
 for (let index = lastCharPosition; index >= 0; index-- ){
      var char = sentence.charAt(index);
       reverseString = reverseString.concat(char);
-     // console.log(char);
-    
+     // console.log(char);   
 }
 console.log(reverseString);
+
+
 

@@ -14,4 +14,5 @@ function countChar(string){
 }
 countChar("I Am Learning JavaScript, The Language of internet");
 console.log(``);
-countChar("My favourite movieis LAggAn");
+countChar("My favourite movie is LAggAn");
+console.log(``);

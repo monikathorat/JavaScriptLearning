@@ -30,18 +30,17 @@ sumOfCube(1, 2, 3, 4, 5);
 console.log(``);
 console.log(`###3`);
 
-function oddPositionedChars(value) {
+function oddPositionedChars(value) 
   var res = value.replaceAll(" ", "");
 
   console.log(res);
 
-  for (let index = 0; index < res.length; index++) {
+  for (let index = 1; index < res.length; index++) {
     while (index <= res.length) {
       var result = res.charAt(index);
       console.log(result);
       index = index + 2;
     }
-  }
 }
 oddPositionedChars("Hard work always pays back");
 oddPositionedChars("Soon I will be Angular IT Champ");

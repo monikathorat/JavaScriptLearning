@@ -34,3 +34,4 @@ function add(num1, num2) {
 add(5, 5);
 // console.log(`Outside Result is : ${result}`);
 // console.log(PIN);
+

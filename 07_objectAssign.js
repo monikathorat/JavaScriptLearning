@@ -34,14 +34,14 @@ professor.degrees= {
     engineering:"CSE",
     PHD:"Adv Computing",
     Master:"Programming",
-    add:function() {
+    add:function(){
        return this.engineering+` ` + this.PHD+` `+this.Master;     
     }
 }
 const allDegrees = professor.degrees.add();
 console.log(`Total degrees of professor are: ${allDegrees}`);
     console.log(``);
-//
+
 console.log(`###5. Adding new property in object`);
 professor.mobileNumber = 4587123658;
 console.log(Object.keys(professor))

@@ -15,3 +15,7 @@ console.log(empSmith);
 console.log(empJay);
 console.log(empBill);
 console.log(empBill.name,empBill.id,empBill.age,empBill.city);
+
+let isInstance = empBill instanceof Employee;
+console.log(isInstance);
+// Object is an instance of class

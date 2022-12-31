@@ -5,8 +5,6 @@ const personalDetails = {
     education: "BE-Civil",
     mobile: 7620784232
 }
-
-
 const collegeDetails = {
     clgname: "SKNSCOE",
     city: "Pandharpur",
@@ -38,10 +36,10 @@ console.log(`###. Revering word 'Technology' as'ygolonhceT' from "Codemind Techn
 //  console.log(newStr);
  let finalLen = newStr.length;
 // console.log(finalLen);
-var reverseString = "Codemind ";
- var lastCharPosition = newStr.length-1;
+let reverseString = "Codemind ";
+let lastCharPosition = newStr.length-1;
 for (let index = lastCharPosition; index >= 0; index-- ){
-    var lastChar =  newStr.charAt(index);
+    let lastChar =  newStr.charAt(index);
     reverseString = reverseString.concat(lastChar);  
 }
 console.log(reverseString);

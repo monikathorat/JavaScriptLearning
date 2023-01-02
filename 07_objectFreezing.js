@@ -2,19 +2,19 @@
 var isMarried = true;
 
 let name = "John";
-let frdName = "Tom"
+let frdName = "Tom";
 name = frdName;
 
 const age = 23;
 // const frdAge = 25;
 // age = frdAge;// Not allowed
 
-
 const anil = {
     age: 23,
     name: "Anil",
     company: "Microsoft"
 }
+
 Object.freeze(anil);
 anil.country = "India";
 anil.age = 27;
@@ -34,8 +34,9 @@ const sunil = {
 const arrayNumbers = [2, 4, 5, 8];
 // arrayNumbers = []; /// Not allowed
 // Freeze array
+
 Object.freeze(arrayNumbers);
-// arrayNumbers.push(10); Not allowedas it is freezed
+// arrayNumbers.push(10); Not allowed as it is freezed
 console.log(arrayNumbers);
 
 const sunilAddress = {

@@ -1,9 +1,9 @@
 
 
-// program to check if a number is prime or not
+// // program to check if a number is prime or not
 
-let number = 11;
-let isPrime = true;
+   let number = 11;
+   let isPrime = true;
 
     for (let i = 2; i < number; i++) {
         if (number % i == 0) {
@@ -17,7 +17,7 @@ let isPrime = true;
         console.log(`${number} is a not prime number`);
     }
 
-    //Program to count prime num upto 20 
+    // //Program to count prime num upto 20 
 
     // var counter = 0;
     // for (var counter = 0; counter <= 20; counter++) {

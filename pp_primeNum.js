@@ -2,7 +2,7 @@
 
 // // program to check if a number is prime or not
 
-   let number = 11;
+   let number = 6;
    let isPrime = true;
 
     for (let i = 2; i < number; i++) {
@@ -31,4 +31,19 @@
     //                 console.log(counter);
     //     }
     // }
+
+    // function primenum(n){
+    //     for (let index = 2; index < n; index++) {
+    //         if (n % index == 0) {
+    //             console.log(`Given number ${n} Not prime number`);
+    //         }
+    //         else{
+    //             console.log(`Given number ${n} is prime number`);
+    //         }    
+    //     }
+        
+    // }
+    // primenum(4);
+
+
 

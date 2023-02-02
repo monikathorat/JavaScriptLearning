@@ -67,12 +67,20 @@ console.log(`###6. `);
 
 console.log(``);
 
-let julySal = employee_info.salary.july_month;
-console.log(`${employee_info.emp_name}'s 'jult_month' salary is: ${julySal}`);
-let upJulySal = employee_info.salary.july_month = "80K";
-console.log(`${employee_info.emp_name}'s updated salary of 'july_month' is: ${upJulySal}`);
-console.log(``);
+// let julySal = employee_info.salary.july_month;
+// console.log(`${employee_info.emp_name}'s 'jult_month' salary is: ${julySal}`);
 
-console.log(`${employee_info.emp_name}'s country is: ${country}`);
-let upCountry = employee_info.address.country = "United Kingdom";
-console.log(`${employee_info.emp_name}'s updated country is: ${upCountry}`);
+// let upJulySal = employee_info.salary.july_month = "80K";
+// console.log(`${employee_info.emp_name}'s updated salary of 'july_month' is: ${upJulySal}`);
+// console.log(``);
+
+// console.log(`${employee_info.emp_name}'s country is: ${country}`);
+// let upCountry = employee_info.address.country = "United Kingdom";
+// console.log(`${employee_info.emp_name}'s updated country is: ${upCountry}`);
+
+
+console.log(`6]. Performing deep copy using JSON.stringfy()....`);
+console.log(`--> a. Before updating july month salary is:-->`,employee_info.salary);
+let newemployee_info = JSON.parse(JSON.stringify(employee_info));
+newemployee_info.salary.july_month = "80,0000INR";
+console.log(`--> a. After updating july month salary is:-->`,newemployee_info.salary);
